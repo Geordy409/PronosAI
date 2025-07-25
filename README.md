@@ -130,8 +130,9 @@ L'application sera accessible à l'adresse : `http://localhost:8501`
 
 ```
 PronosAI/
-├── main.py                 # Application principale Streamlit
-├── .env                   # Variables d'environnement (à créer)     # Dépendances Python
+├── main.py
+├── requirements.txt                  # Application principale Streamlit
+├── .env                # Variables d'environnement (à créer)     # Dépendances Python
 └── README.md             # Documentation
 ```
 
