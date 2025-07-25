@@ -74,7 +74,7 @@ pydantic
 ### Lancer l'application
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 L'application sera accessible à l'adresse : `http://localhost:8501`
