@@ -6,3 +6,4 @@ langchain-openai
 langchain-community
 langchain-core
 pydantic
+google-search-results
