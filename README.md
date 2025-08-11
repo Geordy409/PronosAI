@@ -1,12 +1,12 @@
 # 🐈‍⬛ PronosAI - Assistant IA pour Pronostics Sportifs
 
-PronosAI est une application Streamlit qui combine l'intelligence artificielle de GPT-4 avec des données sportives en temps réel pour fournir des analyses et pronostics éclairés.
+PronosAI est une application Streamlit qui combine l'intelligence artificielle de GPT-4 avec des données sportives en temps réel pour fournir des analyses et pronostics éclairés, elle est disponible sur https://pronosai.streamlit.app/ .
 
 ## ✨ Fonctionnalités
 
 ### 🎯 Core Features
 
-- **Chat IA interactif** avec GPT-4 spécialisé dans les pronostics sportifs
+- **Chat IA interactif** avec gpt-4o spécialisé dans les pronostics sportifs
 - **Cotes sportives en temps réel** via The Odds API
 - **Recherche web** d'informations actuelles sur les équipes et joueurs
 - **Analyses argumentées** basées sur les données disponibles
@@ -74,7 +74,7 @@ pydantic
 ### Lancer l'application
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 L'application sera accessible à l'adresse : `http://localhost:8501`
@@ -130,8 +130,9 @@ L'application sera accessible à l'adresse : `http://localhost:8501`
 
 ```
 PronosAI/
-├── main.py                 # Application principale Streamlit
-├── .env                   # Variables d'environnement (à créer)     # Dépendances Python
+├── main.py
+├── requirements.txt                  # Application principale Streamlit
+├── .env                # Variables d'environnement (à créer)     # Dépendances Python
 └── README.md             # Documentation
 ```
 
