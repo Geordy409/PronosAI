@@ -6,7 +6,7 @@ PronosAI est une application Streamlit qui combine l'intelligence artificielle d
 
 ### 🎯 Core Features
 
-- **Chat IA interactif** avec GPT-4 spécialisé dans les pronostics sportifs
+- **Chat IA interactif** avec gpt-oss-20b spécialisé dans les pronostics sportifs
 - **Cotes sportives en temps réel** via The Odds API
 - **Recherche web** d'informations actuelles sur les équipes et joueurs
 - **Analyses argumentées** basées sur les données disponibles
