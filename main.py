@@ -20,7 +20,7 @@ from typing import Optional
 # Configuration de la page Streamlit
 st.set_page_config(
     page_title="PronosAI",
-    page_icon="🐈‍⬛",
+    page_icon="😎",
     layout="wide"
 )
 
@@ -203,7 +203,7 @@ def initialize_llm_and_tools():
 # Interface Streamlit principale
 def main():
     """Fonction principale qui lance l'interface Streamlit de PronosAI."""
-    st.title("🐈‍⬛ PronosAI - Assistant IA pour Pronostics Sportifs")
+    st.title("🤗TippS")
     st.markdown("---")
     
     # Sidebar pour la configuration
