@@ -153,7 +153,7 @@ def initialize_llm_and_tools():
         st.stop()
     
     llm = ChatOpenAI(
-        model="gpt-4o",
+        model="gpt-oss-20b",
         temperature=0.1,
         api_key=openai_key
     )
